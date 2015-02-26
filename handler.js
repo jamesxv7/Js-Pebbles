@@ -11,6 +11,8 @@ function handler()
 			{
 			// Retrieve the response
 			response = ajax.responseText;
+			// Or we can use "responseXml" when the server 
+			// response is in the XML format.
 			// Do something with the response
 			}
 			catch(e)
